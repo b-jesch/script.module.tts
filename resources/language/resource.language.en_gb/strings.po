@@ -1,0 +1,699 @@
+# XBMC Media Center language file
+# Addon Name: Text to Speech
+# Addon id: script.module.tts
+# Addon version: 1.0.0
+# Addon Provider: Birger Jesch
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2022-03-09 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "Addon Summary"
+msgid "Text to Speech Module"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid ""
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Use at your own risk"
+msgstr ""
+
+
+msgctxt "#30010"
+msgid "Voice RSS API Key"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Spoken Language"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Use SSL"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Speaker's Name and Gender"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Speech rate (speed)"
+msgstr ""
+
+msgctxt "30015"
+msgid "An error has occurred. Check the settings."
+msgstr ""
+
+msgctxt "#30020"
+msgid "Please follow the instructions of the readme for using this module properly."
+msgstr ""
+
+msgctxt "#30030"
+msgid "-5"
+msgstr ""
+
+msgctxt "#30031"
+msgid "-4"
+msgstr ""
+
+msgctxt "#30032"
+msgid "-3"
+msgstr ""
+
+msgctxt "#30033"
+msgid "-2"
+msgstr ""
+
+msgctxt "#30034"
+msgid "-1"
+msgstr ""
+
+msgctxt "#30035"
+msgid "0"
+msgstr ""
+
+msgctxt "#30036"
+msgid "1"
+msgstr ""
+
+msgctxt "#30037"
+msgid "2"
+msgstr ""
+
+msgctxt "#30038"
+msgid "3"
+msgstr ""
+
+msgctxt "#30039"
+msgid "4"
+msgstr ""
+
+msgctxt "#30040"
+msgid "5"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Arabic (Egypt)"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Arabic (Saudi Arabia)"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Bulgarian"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Catalan"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Chinese (China)"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Chinese (Hong Kong)"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Chinese (Taiwan)"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Croatian"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Czech"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Danish"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Dutch (Belgium)"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Dutch (Netherlands)"
+msgstr ""
+
+msgctxt "#30062"
+msgid "English (Australia)"
+msgstr ""
+
+msgctxt "#30063"
+msgid "English (Canada)"
+msgstr ""
+
+msgctxt "#30064"
+msgid "English (UK)"
+msgstr ""
+
+msgctxt "#30065"
+msgid "English (India)"
+msgstr ""
+
+msgctxt "#30066"
+msgid "English (Ireland)"
+msgstr ""
+
+msgctxt "#30067"
+msgid "English (US)"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Finnish"
+msgstr ""
+
+msgctxt "#30069"
+msgid "French (Canada)"
+msgstr ""
+
+msgctxt "#30070"
+msgid "French"
+msgstr ""
+
+msgctxt "#30071"
+msgid "French (Switzerland)"
+msgstr ""
+
+msgctxt "#30072"
+msgid "German (Austria)"
+msgstr ""
+
+msgctxt "#30073"
+msgid "German"
+msgstr ""
+
+msgctxt "#30074"
+msgid "German (Switzerland)"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Greek"
+msgstr ""
+
+msgctxt "#30076"
+msgid "Hebrew"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Hindi"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Hungarian"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Indonesian"
+msgstr ""
+
+msgctxt "#30080"
+msgid "Italian"
+msgstr ""
+
+msgctxt "#30081"
+msgid "Japanese"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Korean"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Malay"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Norwegian"
+msgstr ""
+
+msgctxt "#30085"
+msgid "Polish"
+msgstr ""
+
+msgctxt "#30086"
+msgid "Portuguese (Brasil)"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Portuguese (Portugal)"
+msgstr ""
+
+msgctxt "#30088"
+msgid "Romanian"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Russian"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Slovak"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Slovenian"
+msgstr ""
+
+msgctxt "#30092"
+msgid "Spanish (Mexico)"
+msgstr ""
+
+msgctxt "#30093"
+msgid "Spanish (Spain)"
+msgstr ""
+
+msgctxt "#30094"
+msgid "Swedish"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Tamil"
+msgstr ""
+
+msgctxt "#30096"
+msgid "Thai"
+msgstr ""
+
+msgctxt "#30097"
+msgid "Turkish"
+msgstr ""
+
+msgctxt "#30098"
+msgid "Vietnamese"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Oda (female)"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Salim (male)"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Dimo (male)"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Rut (female)"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Luli (female)"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Shu (female)"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Chow (female)"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Wang (male)"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Jia (female)"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Xia (female)"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Chen (male)"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Akemi (female)"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Lin (female)"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Lee (male)"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Nikola (male)"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Josef (male)"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Freja (female)"
+msgstr ""
+
+msgctxt "#30117"
+msgid "Daan (male)"
+msgstr ""
+
+msgctxt "#30118"
+msgid "Lotte (female)"
+msgstr ""
+
+msgctxt "#30119"
+msgid "Bram (male)"
+msgstr ""
+
+msgctxt "#30120"
+msgid "Zoe (female)"
+msgstr ""
+
+msgctxt "#30121"
+msgid "Isla (female)"
+msgstr ""
+
+msgctxt "#30122"
+msgid "Evie (female)"
+msgstr ""
+
+msgctxt "#30123"
+msgid "Jack (male)"
+msgstr ""
+
+msgctxt "#30124"
+msgid "Rose (female)"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Clara (female)"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Emma (female)"
+msgstr ""
+
+msgctxt "#30127"
+msgid "Mason (male)"
+msgstr ""
+
+msgctxt "#30128"
+msgid "Alice (female)"
+msgstr ""
+
+msgctxt "#30129"
+msgid "Nancy (female)"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Lily (female)"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Harry (male)"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Eka (female)"
+msgstr ""
+
+msgctxt "#30133"
+msgid "Jai (female)"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Ajit (male)"
+msgstr ""
+
+msgctxt "#30135"
+msgid "Oran (male)"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Linda (female)"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Amy (female)"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Mary (female)"
+msgstr ""
+
+msgctxt "#30139"
+msgid "John (male)"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Mike (male)"
+msgstr ""
+
+msgctxt "#30141"
+msgid "Aaada (female)"
+msgstr ""
+
+msgctxt "#30142"
+msgid "Emile (female)"
+msgstr ""
+
+msgctxt "#30143"
+msgid "Olivia (female)"
+msgstr ""
+
+msgctxt "#30144"
+msgid "Logan (female)"
+msgstr ""
+
+msgctxt "#30145"
+msgid "Felix (male)"
+msgstr ""
+
+msgctxt "#30146"
+msgid "Bette (female)"
+msgstr ""
+
+msgctxt "#30147"
+msgid "Iva (female)"
+msgstr ""
+
+msgctxt "#30148"
+msgid "Zola (female)"
+msgstr ""
+
+msgctxt "#30149"
+msgid "Axel (male)"
+msgstr ""
+
+msgctxt "#30150"
+msgid "Theo (male)"
+msgstr ""
+
+msgctxt "#30151"
+msgid "Lukas (male)"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Hanna (female)"
+msgstr ""
+
+msgctxt "#30153"
+msgid "Lina (female)"
+msgstr ""
+
+msgctxt "#30154"
+msgid "Jonas (male)"
+msgstr ""
+
+msgctxt "#30155"
+msgid "Tim (male)"
+msgstr ""
+
+msgctxt "#30156"
+msgid "Neo (male)"
+msgstr ""
+
+msgctxt "#30157"
+msgid "Rami (male)"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Puja (female)"
+msgstr ""
+
+msgctxt "#30159"
+msgid "Kabir (male)"
+msgstr ""
+
+msgctxt "#30160"
+msgid "Mate (male)"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Intan (male)"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Bria (female)"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Mia (female)"
+msgstr ""
+
+msgctxt "#30164"
+msgid "Pietro (male)"
+msgstr ""
+
+msgctxt "#30165"
+msgid "Hina (female)"
+msgstr ""
+
+msgctxt "#30166"
+msgid "Airi (female)"
+msgstr ""
+
+msgctxt "#30167"
+msgid "Fumi (female)"
+msgstr ""
+
+msgctxt "#30168"
+msgid "Akira (male)"
+msgstr ""
+
+msgctxt "#30169"
+msgid "Nari (female)"
+msgstr ""
+
+msgctxt "#30170"
+msgid "Aqil (male)"
+msgstr ""
+
+msgctxt "#30171"
+msgid "Marte (female)"
+msgstr ""
+
+msgctxt "#30172"
+msgid "Erik (male)"
+msgstr ""
+
+msgctxt "#30173"
+msgid "Julia (female)"
+msgstr ""
+
+msgctxt "#30174"
+msgid "Jan (male)"
+msgstr ""
+
+msgctxt "#30175"
+msgid "Marcia (female)"
+msgstr ""
+
+msgctxt "#30176"
+msgid "Ligia (female)"
+msgstr ""
+
+msgctxt "#30177"
+msgid "Yara (female)"
+msgstr ""
+
+msgctxt "#30178"
+msgid "Dinis (male)"
+msgstr ""
+
+msgctxt "#30179"
+msgid "Leonor (female)"
+msgstr ""
+
+msgctxt "#30180"
+msgid "Doru (male)"
+msgstr ""
+
+msgctxt "#30181"
+msgid "Olga (female)"
+msgstr ""
+
+msgctxt "#30182"
+msgid "Marina (female)"
+msgstr ""
+
+msgctxt "#30183"
+msgid "Peter (male)"
+msgstr ""
+
+msgctxt "#30184"
+msgid "Beda"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Vid (male)"
+msgstr ""
+
+msgctxt "#30186"
+msgid "Juana (female)"
+msgstr ""
+
+msgctxt "#30187"
+msgid "Sivia (female)"
+msgstr ""
+
+msgctxt "#30188"
+msgid "Teresa (female)"
+msgstr ""
+
+msgctxt "#30189"
+msgid "Jose (male)"
+msgstr ""
+
+msgctxt "#30190"
+msgid "Camila (female)"
+msgstr ""
+
+msgctxt "#30191"
+msgid "Sofia (female)"
+msgstr ""
+
+msgctxt "#30192"
+msgid "Luna (female)"
+msgstr ""
+
+msgctxt "#30193"
+msgid "Diego (male)"
+msgstr ""
+
+msgctxt "#30194"
+msgid "Molly (female)"
+msgstr ""
+
+msgctxt "#30195"
+msgid "Hugo (male)"
+msgstr ""
+
+msgctxt "#30196"
+msgid "Sai (male)"
+msgstr ""
+
+msgctxt "#30197"
+msgid "Ukrit (male)"
+msgstr ""
+
+msgctxt "#30198"
+msgid "Omer (male)"
+msgstr ""
+
+msgctxt "#30199"
+msgid "Chi (male)"
+msgstr ""
