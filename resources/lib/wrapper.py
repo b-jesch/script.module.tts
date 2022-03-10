@@ -63,23 +63,25 @@ class TTS(object):
             xbmc.log('[%s]: %s' % (ADDON_NAME, str(e)), xbmc.LOGERROR)
             return False
 
-        with open(os.path.join(PROFILE, 'tmp.%s' % self.codec), 'wb') as bs_out: bs_out.write(result['response'])
+        with open(os.path.join(PROFILE, 'speech.%s' % self.codec.lower()), 'wb') as bs_out:
+            bs_out.write(result['response'])
 
         # determine active players
         query = dict({'method': 'Player.GetActivePlayers', 'params': {}})
         res = jsonrpc(query)
         if res:
-            xbmc.playSFX(os.path.join(PROFILE, 'tmp.%s' % self.codec), useCached=False)
+            xbmc.playSFX(os.path.join(PROFILE, 'speech.%s' % self.codec.lower()), useCached=False)
         else:
-            xbmc.Player().play(os.path.join(PROFILE, 'tmp.%s' % self.codec))
+            xbmc.Player().play(os.path.join(PROFILE, 'speech.%s' % self.codec.lower()))
         return True
 
 
 if __name__ == '__main__':
 
     TextToSpeech = TTS()
+    TextToSpeech.text = LOC(30020)
     try:
         if sys.argv[1].split('=')[0] == 'text': TextToSpeech.text = sys.argv[1].split('=')[1]
     except IndexError:
-        TextToSpeech.text = LOC(30020)
+        pass
     if not TextToSpeech.talk(): xbmcgui.Dialog().notification(ADDON_NAME, LOC(30015), icon=xbmcgui.NOTIFICATION_ERROR)
