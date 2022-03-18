@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.tts" name="Voice RSS Text to Speech" version="1.0.0" provider-name="PvD">
+<addon id="script.module.tts" name="Voice RSS Text to Speech" version="1.0.1" provider-name="PvD">
     <requires>
 	    <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.script" library="resources/lib/wrapper.py" args="Hallo Welt" />
+    <extension point="xbmc.python.script" library="resources/lib/wrapper.py" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Voice RSS Text to Speech Wrapper (voicerss.org)</summary>
         <description lang="en">Text to Speech Wrapper of Voice RSS service, provides 49 languages and 100 speaker voices (male and female)</description>

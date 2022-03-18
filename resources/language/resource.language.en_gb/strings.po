@@ -54,6 +54,10 @@ msgctxt "30015"
 msgid "An error has occurred. Check the settings."
 msgstr ""
 
+msgctxt "30016"
+msgid "Input any text here"
+msgstr ""
+
 msgctxt "#30020"
 msgid "Please follow the instructions of the readme for using this module properly."
 msgstr ""
@@ -296,6 +300,10 @@ msgstr ""
 
 msgctxt "#30098"
 msgid "Vietnamese"
+msgstr ""
+
+msgctxt "#30099"
+msgid "Test Speech Engine (Input a Sentence)"
 msgstr ""
 
 msgctxt "#30100"

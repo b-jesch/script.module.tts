@@ -82,6 +82,9 @@ if __name__ == '__main__':
     TextToSpeech.text = LOC(30020)
     try:
         if sys.argv[1].split('=')[0] == 'text': TextToSpeech.text = sys.argv[1].split('=')[1]
+        elif sys.argv[1] == 'test':
+            text = xbmcgui.Dialog().input(LOC(30016), type=xbmcgui.INPUT_ALPHANUM)
+            if text != '': TextToSpeech.text = text
     except IndexError:
         pass
     if not TextToSpeech.talk(): xbmcgui.Dialog().notification(ADDON_NAME, LOC(30015), icon=xbmcgui.NOTIFICATION_ERROR)
