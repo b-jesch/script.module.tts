@@ -15,7 +15,7 @@
 				</setting>
 				<setting id="ssl" type="boolean" label="30012" help="">
 					<level>0</level>
-                    <default>true</default>
+					<default>true</default>
 					<control type="toggle"/>
 				</setting>
 				<setting id="speed" type="string" label="30014" help="">
@@ -41,7 +41,7 @@
 				</setting>
 				<setting id="language" type="string" label="30011" help="">
 					<level>0</level>
-                    <default>30064</default>
+					<default>30064</default>
 					<constraints>
 						<options>
 							<option label="30050">30050</option>
@@ -103,64 +103,64 @@
 					<constraints>
 						<options>
 							<option label="30100">30100</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30050</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30050</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30051" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30101">30101</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30051</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30051</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30052" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30102">30102</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30052</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30052</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30053" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30103">30103</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30053</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30053</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30054" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -170,16 +170,16 @@
 							<option label="30105">30105</option>
 							<option label="30106">30106</option>
 							<option label="30107">30107</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30054</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30054</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30055" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -188,16 +188,16 @@
 							<option label="30108">30108</option>
 							<option label="30109">30109</option>
 							<option label="30110">30110</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30055</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30055</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30056" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -206,80 +206,80 @@
 							<option label="30111">30111</option>
 							<option label="30112">30112</option>
 							<option label="30113">30113</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30056</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30056</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30057" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30114">30114</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30057</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30057</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30058" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30115">30115</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30058</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30058</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30059" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30116">30116</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30059</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30059</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30060" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30117">30117</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30060</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30060</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30061" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -287,16 +287,16 @@
 						<options>
 							<option label="30118">30118</option>
 							<option label="30119">30119</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30061</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30061</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30062" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -306,16 +306,16 @@
 							<option label="30121">30121</option>
 							<option label="30122">30122</option>
 							<option label="30123">30123</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30062</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30062</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30063" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -325,16 +325,16 @@
 							<option label="30125">30125</option>
 							<option label="30126">30126</option>
 							<option label="30127">30127</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30063</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30063</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30064" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -344,16 +344,16 @@
 							<option label="30129">30129</option>
 							<option label="30130">30130</option>
 							<option label="30131">30131</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30064</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30064</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30065" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -362,32 +362,32 @@
 							<option label="30132">30132</option>
 							<option label="30133">30133</option>
 							<option label="30134">30134</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30065</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30065</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30066" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30135">30135</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30066</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30066</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30067" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -398,32 +398,32 @@
 							<option label="30138">30138</option>
 							<option label="30139">30139</option>
 							<option label="30140">30140</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30067</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30067</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30068" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30141">30141</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30068</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30068</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30069" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -433,16 +433,16 @@
 							<option label="30143">30143</option>
 							<option label="30144">30144</option>
 							<option label="30145">30145</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30069</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30069</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30070" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -452,48 +452,48 @@
 							<option label="30147">30147</option>
 							<option label="30148">30148</option>
 							<option label="30149">30149</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30070</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30070</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30071" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30150">30150</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30071</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30071</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30072" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30151">30151</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30072</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30072</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30073" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -502,64 +502,64 @@
 							<option label="30152">30152</option>
 							<option label="30153">30153</option>
 							<option label="30154">30154</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30073</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30073</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30074" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30155">30155</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30074</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30074</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30075" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30156">30156</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30075</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30075</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30076" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30157">30157</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30076</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30076</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30077" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -567,48 +567,48 @@
 						<options>
 							<option label="30158">30158</option>
 							<option label="30159">30159</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30077</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30077</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30078" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30160">30160</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30078</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30078</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30079" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30161">30161</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30079</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30079</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30080" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -617,16 +617,16 @@
 							<option label="30162">30162</option>
 							<option label="30163">30163</option>
 							<option label="30164">30164</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30080</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30080</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30081" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -636,48 +636,48 @@
 							<option label="30166">30166</option>
 							<option label="30167">30167</option>
 							<option label="30168">30168</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30081</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30081</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30082" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30169">30169</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30082</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30082</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30083" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30170">30170</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30083</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30083</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30084" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -685,16 +685,16 @@
 						<options>
 							<option label="30171">30171</option>
 							<option label="30172">30172</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30084</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30084</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30085" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -702,16 +702,16 @@
 						<options>
 							<option label="30173">30173</option>
 							<option label="30174">30174</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30085</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30085</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30086" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -721,48 +721,48 @@
 							<option label="30176">30176</option>
 							<option label="30177">30177</option>
 							<option label="30178">30178</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30086</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30086</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30087" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30179">30179</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30087</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30087</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30088" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30180">30180</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30088</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30088</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30089" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -771,48 +771,48 @@
 							<option label="30181">30181</option>
 							<option label="30182">30182</option>
 							<option label="30183">30183</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30089</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30089</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30090" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30184">30184</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30090</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30090</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30091" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30185">30185</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30091</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30091</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30092" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -822,16 +822,16 @@
 							<option label="30187">30187</option>
 							<option label="30188">30188</option>
 							<option label="30189">30189</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30092</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30092</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30093" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -841,16 +841,16 @@
 							<option label="30191">30191</option>
 							<option label="30192">30192</option>
 							<option label="30193">30193</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30093</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30093</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30094" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
@@ -858,80 +858,80 @@
 						<options>
 							<option label="30194">30194</option>
 							<option label="30195">30195</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30094</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30094</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30095" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30196">30196</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30095</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30095</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30096" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30197">30197</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30096</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30096</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30097" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30198">30198</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30097</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30097</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 				<setting id="30098" type="string" label="30013" help="">
 					<level>0</level>
 					<default/>
 					<constraints>
 						<options>
 							<option label="30199">30199</option>
-                        </options>
-                        <allowempty>true</allowempty>
-                    </constraints>
-                    <dependencies>
-                        <dependency type="visible">
-                            <condition operator="is" setting="language">30098</condition>
-                        </dependency>
-                    </dependencies>
-                    <control type="spinner" format="string"/>
-                </setting>
+						</options>
+						<allowempty>true</allowempty>
+					</constraints>
+					<dependencies>
+						<dependency type="visible">
+							<condition operator="is" setting="language">30098</condition>
+						</dependency>
+					</dependencies>
+					<control type="spinner" format="string"/>
+				</setting>
 			</group>
 			<group id="2">
 				<setting help="" id="30099" label="30099" type="action">
