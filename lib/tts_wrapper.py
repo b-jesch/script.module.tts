@@ -52,8 +52,9 @@ class TTS(object):
         self.codec = 'WAV'
         self.format = '22khz_16bit_mono'
 
-    def talk(self):
+    def say(self, text=None):
 
+        if text is not None: self.text = text
         params = dict({'key': self.api_key, 'src': self.text, 'hl': self.language, 'ssl': self.ssl, 'v': self.voice,
                        'r': self.speed, 'c': self.codec, 'f': self.format})
         try:
@@ -87,4 +88,4 @@ if __name__ == '__main__':
             if text != '': TextToSpeech.text = text
     except IndexError:
         pass
-    if not TextToSpeech.talk(): xbmcgui.Dialog().notification(ADDON_NAME, LOC(30015), icon=xbmcgui.NOTIFICATION_ERROR)
+    if not TextToSpeech.say(): xbmcgui.Dialog().notification(ADDON_NAME, LOC(30015), icon=xbmcgui.NOTIFICATION_ERROR)

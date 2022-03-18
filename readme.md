@@ -23,12 +23,18 @@ Add this module as a dependency in the addon.xml to the addon that should use th
 
     from tts_wrapper import TTS
     text_to_speech = TTS()
+    ...
 
     # assign text to the engine
     text_to_speech.text = 'Say hello to the world'
 
     # and let the engine speak
-    text_to_speech.talk()
+    text_to_speech.say()
+
+or:
+
+    text_to_speech.say('Hello world, today is a good day')
+    
 
 Audio is output through Kodi's internal player unless it outputs other sound from a video or audio source. Otherwise 
 the output is done via the SFX player. 
