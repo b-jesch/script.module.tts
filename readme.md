@@ -5,7 +5,8 @@ A text to speech wrapper using the TTS engine from Voice RSS
 ## Requirements ##
 
 You need a valid API key from Voice RSS. The price depends on the number of requests to the TTS Engine and varies from 
-free use (max. 350 requests/day) up to commercial use. A pricing list can be found at https://www.voicerss.org/pricing
+free use (max. 350 requests/day) up to commercial use. A pricing list can be found at https://www.voicerss.org/pricing . You
+have to register for aquiring an API key from here: https://www.voicerss.org/login.aspx
 
 After receiving the API key, this must be entered in the setup of the module and the TTS Engine is ready for use. To check 
 the functionality simply click the addon icon. The other settings in the setup of the module are self-explanatory.
