@@ -50,11 +50,11 @@ msgctxt "#30014"
 msgid "Speech rate (speed)"
 msgstr ""
 
-msgctxt "30015"
+msgctxt "#30015"
 msgid "An error has occurred. Check the settings."
 msgstr ""
 
-msgctxt "30016"
+msgctxt "#30016"
 msgid "Input any text here"
 msgstr ""
 

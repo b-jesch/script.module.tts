@@ -42,7 +42,12 @@ class TTS(object):
         self.api_key = ADDON.getSetting('api_key')
         self.ssl = True if ADDON.getSetting('ssl').lower() == 'true' else False
         self.language = countries[int(ADDON.getSetting('language'))]
-        self.voice = LOC(int(ADDON.getSetting(ADDON.getSetting('language')))).split()[0]
+
+        try:
+            self.voice = LOC(int(ADDON.getSetting(ADDON.getSetting('language')))).split()[0]
+        except ValueError:
+            self.voice = LOC(30128).split()[0]
+
         self.speed = ADDON.getSetting('speed')
 
         xbmc.log('[%s]: using voice %s from %s (%s, speed: %s)' % (ADDON_NAME, self.voice,
